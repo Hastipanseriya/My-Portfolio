@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Hasti's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="left">Hasti's Portfolio</div>
+        <ul class="right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="firstsection" id="home">
+      <div class="leftsection">
+        Hi, my name is <span class="purple">Hasti</span>,
+        <div>and I am a passionate</div>
+        <div><span id="element"></span></div>
+      </div>
+      <div class="rightsection">
+      <img 
+  src="img.jpg" 
+  alt="Developer Image" 
+  style="
+    width: 100%;
+    max-width: 350px;
+    border: 5px solid rgb(116, 116, 232);
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(8, 6, 76, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  "
+  onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.7)';"
+  onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.6)';"
+/>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="secondsection" id="about">
+      <h1>About Me</h1>
+      <div class="box">
+        Hi! I'm Hasti Patel, a passionate and self-driven web developer focused
+        on creating clean, responsive, and user-friendly websites. I enjoy
+        solving real-world problems using web technologies like HTML, CSS,
+        JavaScript, and React. I'm currently learning backend tools like Node.js
+        and MongoDB and open to freelance, internship, or open-source
+        opportunities.
+
+        <p class="connect">Connect with me:</p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/hasti-patel-9399bb32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i> LinkedIn
+          </a>
+          <a href="https://github.com/Hastipanseriya" target="_blank">
+            <i class="fab fa-github fa-2x"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="thirdsection" id="skill">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skillcard" data-aos="fade-up">HTML</div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="100">
+          CSS3
+        </div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="200">
+          JavaScript
+        </div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="300">
+          MySQL
+        </div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="400">
+          Problem Solving
+        </div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="500">
+          Communication
+        </div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="600">
+          Adaptability
+        </div>
+        <div class="skillcard" data-aos="fade-up" data-aos-delay="700">
+          Creativity
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="forthsection" id="education">
+      <h2>Education</h2>
+      <div class="educationcontainer">
+        <div class="educationcard" data-aos="fade-right">
+          <h3>Bachelor of Technology (B.Tech) in Computer Science</h3>
+          <p>Sarvajnik College Of Engineering And Technology, Surat</p>
+          <p>2022 – 2026</p>
+        </div>
+        <div class="educationcard" data-aos="fade-left">
+          <h3>12th Grade 84% HSC</h3>
+          <p>GSEB Board</p>
+          <p>2022</p>
+        </div>
+        <div class="educationcard" data-aos="fade-up">
+          <h3>10th Grade 89% SSC</h3>
+          <p>GSEB Board</p>
+          <p>2020</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="forthsection" id="projects">
+      <h2>Projects</h2>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>
+          Employee Management System
+        </h3>
+        <p>
+          Developed a web-based application to manage employee information
+          efficiently, including secure data storage, automated salary
+          calculations, leave request tracking, and generating comprehensive
+          reports using technologies like HTML, CSS, JavaScript, PHP, and SQL.
+        </p>
+      </div>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>Data Visualization Dashboard (Grafana)</h3>
+        <p>
+          Designed and implemented a real-time dashboard to visualize system
+          performance and custom analytics, integrating backend data sources for
+          dynamic insights.
+        </p>
+      </div>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>Portfolio Website</h3>
+        <p>
+          Created a responsive personal portfolio showcasing projects, resume,
+          and contact form with real-time validation and interactive animations
+          using HTML, CSS, and JavaScript.
+        </p>
+      </div>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>Restaurant Ordering Web App</h3>
+        <p>
+          Built a full-stack restaurant ordering system allowing menu browsing,
+          order placement, and reservations with PHP and SQLite backend, and
+          dynamic cart management using JavaScript and localStorage.
+        </p>
+      </div>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+         box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>Airline Management System and RTO Practice App (Android)</h3>
+        <p>
+          Developed Android applications for airline management and RTO exam
+          preparation focusing on intuitive UI, data persistence, and smooth
+          navigation to enhance user experience.
+        </p>
+      </div>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+         box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>HerShield – Women’s Safety Awareness Website</h3>
+        <p>
+          Created a responsive website to promote women’s safety awareness,
+          featuring informational resources, safety tips, and emergency contact
+          functionality using HTML, CSS, JavaScript, and PHP.
+        </p>
+      </div>
+
+      <div
+        class="projectcard"
+        data-aos="fade-up"
+        style="
+          max-width: 800px;
+          margin: auto;
+          text-align: left;
+          background: #f3f4f6;
+          padding: 20px;
+          border-radius: 8px;
+         box-shadow: 0 4px 10px rgba(24, 29, 38, 0.5);
+          margin-bottom: 30px;
+        "
+      >
+        <h3>Cryptocurrency Price Trend Prediction (Python)</h3>
+        <p>
+          Scraped and preprocessed weekly historical cryptocurrency data from
+          CoinMarketCap. Applied data cleaning, feature engineering, and missing
+          value imputation. Developed and evaluated machine learning models,
+          with Random Forest achieving 75.7% accuracy and 0.78 ROC AUC for price
+          trend classification.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="fifthsection" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container" data-aos="fade-up">
+        <form class="contactform">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Frontend Designer", "JavaScript Coder"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
+    </script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true    ,
+      });
+    </script>
+  </body>
+</html>
